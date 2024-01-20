@@ -2,7 +2,7 @@
 
 Hybus-Smart4412TKU(타겟시스템) 장치를 이용해서 만든 가위바위보 코인 슬롯머신 게임
 
-<br>
+<br />
 
 ---
 
@@ -24,7 +24,7 @@ Hybus-Smart4412TKU(타겟시스템) 장치를 이용해서 만든 가위바위�
 
 *이중 tact switch를 제외하고서는 반드시 모듈을 제어하는 함수 안에 `open()`, `close()` 를 반드시 적어주어야 타겟시스템이 다운되지 않는다.*
 
-<br>
+<br />
 
 ---
 
@@ -32,7 +32,7 @@ Hybus-Smart4412TKU(타겟시스템) 장치를 이용해서 만든 가위바위�
 
 ![algorithm](https://user-images.githubusercontent.com/59393359/85367812-f7626800-b564-11ea-990c-cce27461f78d.png)
 
-<br>
+<br />
 
 ---
 
@@ -40,7 +40,7 @@ Hybus-Smart4412TKU(타겟시스템) 장치를 이용해서 만든 가위바위�
 
 각 장치별로 함수화 하여 구현하였고, 메인함수에서는 시작부와 반복부로 나누어 구현하였다.
 
-<br>
+<br />
 
 **`사용되는 함수`**
 
@@ -54,7 +54,7 @@ Hybus-Smart4412TKU(타겟시스템) 장치를 이용해서 만든 가위바위�
 - 돈 배열에서 양의 한자리수 값들만 존재하도록 조정해주는 함수 (세그먼트에 출력하기 위해)
 - 세그먼트 제어함수
 
-<br>
+<br />
 
 **`메인 함수`**
 
@@ -69,6 +69,8 @@ Hybus-Smart4412TKU(타겟시스템) 장치를 이용해서 만든 가위바위�
 	- 가위바위보 함수 구현
 	- 게임 진행 여부 확인
 
+<br />
+
 [소스코드 링크](https://github.com/syki66/RPS-coin-slot-machine/blob/master/rps_coin_slot_machine.c)
 
 <br>
@@ -81,7 +83,7 @@ Hybus-Smart4412TKU(타겟시스템) 장치를 이용해서 만든 가위바위�
 
 `File => Transfer => ZMODEM => send` 순으로 바이너리 코드를 타겟시스템으로 보내면되며, `chmod 777 바이너리파일` 형식으로 권한을 설정해 준뒤 `./바이너리파일` 를 입력하여 실행하면 된다.
 
-<br>
+<br />
 
 ---
 
@@ -93,9 +95,10 @@ Hybus-Smart4412TKU(타겟시스템) 장치를 이용해서 만든 가위바위�
 
 이후 베팅금액을 차감 or 증감 시킨 후 세그먼트에 잔액을 표시해주고 계속할건지의 여부를 선택할 수 있다.
 
-<br>
+<br />
 
-![demo](https://user-images.githubusercontent.com/59393359/85309868-2ee1fd80-b4ee-11ea-87ed-2a2a67deaf50.gif)
+[![demo-thumbnail](https://github.com/syki66/RPS-coin-slot-machine/assets/59393359/783b2208-0e03-41c7-a287-cc1e715ad248)](https://syki66.github.io/RPS-coin-slot-machine/demo.mov)
+
 
 <br>
 
@@ -104,5 +107,3 @@ Hybus-Smart4412TKU(타겟시스템) 장치를 이용해서 만든 가위바위�
 ## 참고 링크
 
 - [16진수 2진수 변환표](https://dojang.io/mod/page/view.php?id=742)
-
-<br><br><br><br>
