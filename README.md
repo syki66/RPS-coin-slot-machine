@@ -71,7 +71,7 @@ Hybus-Smart4412TKU(타겟시스템) 장치를 이용해서 만든 가위바위�
 
 <br />
 
-[소스코드 링크](https://github.com/syki66/RPS-coin-slot-machine/blob/master/rps_coin_slot_machine.c)
+소스코드 : https://github.com/syki66/RPS-coin-slot-machine/blob/master/rps_coin_slot_machine.c
 
 <br>
 
