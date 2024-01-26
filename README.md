@@ -97,7 +97,7 @@ Hybus-Smart4412TKU(타겟시스템) 장치를 이용해서 만든 가위바위�
 
 <br />
 
-[![demo-thumbnail](https://github.com/syki66/RPS-coin-slot-machine/assets/59393359/783b2208-0e03-41c7-a287-cc1e715ad248)](https://syki66.github.io/RPS-coin-slot-machine/demo.mov)
+[![demo-thumbnail](https://github.com/syki66/RPS-coin-slot-machine/assets/59393359/783b2208-0e03-41c7-a287-cc1e715ad248)](https://syki66.github.io/RPS-coin-slot-machine/)
 
 
 <br>
